@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="box">
+        <div class="heading">
+            <h2>CURRENCY CONVERTER !!</h2>
+        </div>
+
+        <form >
+            
+            <input type="number"  placeholder="ENTER THE AMOUNT" class="input">  
+            
+              
+            <div class="dropdowns">
+                
+                <div class="from">
+                    <img src="https://flagsapi.com/IN/flat/64.png" id="from_image">
+                    <p style="text-align: center;">FROM </p>
+                    <div class="select-from">
+                        <select name="from" id="frombtn" >
+                            <option value="select">select</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="symbol">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </div>
+
+
+                
+                <div class="to">
+                    <img src="https://flagsapi.com/US/flat/64.png" id="to_image">
+                    <p style="text-align: center;"> TO </p>
+                    <div class="select-from">
+                        <select name="from" id="tobtn">
+                            <option value="select">select</option>
+                        </select>
+                    </div>
+                </div> 
+
+                
+
+            </div>
+
+            <p class="info">  </p>
+
+            <button type="submit"  class="submit"> GET EXCHANGE RATE </button>
+
+        </form>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>
